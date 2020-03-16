@@ -10,17 +10,16 @@ public class Ball extends CannonGame {
 
     Target target;
     Shape shape;
-
+    Image ball;
 
     @Override
     public void update(GameContainer gameContainer, int i) throws SlickException {
-
-
 
     }
 
     @Override
     public void render(GameContainer gameContainer, org.newdawn.slick.Graphics graphics) throws SlickException {
+
 
 
     }
