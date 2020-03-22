@@ -10,7 +10,7 @@ public class Target extends CannonGame {
 
     Shape shape;
     Image target;
-
+    int randomPosition=0;
 
     @Override
     public void update(GameContainer gameContainer, int i) throws SlickException {
@@ -22,11 +22,15 @@ public class Target extends CannonGame {
     public void render(GameContainer gameContainer, Graphics graphics) throws SlickException {
 
         target = ResourceManager.getImage("resources/target.png");
-/*
+
         Random r = new Random();
-        int randomPosition = r.nextInt((gameContainer.getHeight() - 30 - 100) + 1) + 100;
+        if (randomPosition == 0){
+            randomPosition = r.nextInt((gameContainer.getHeight() - 20 - 200) + 1) + 200;
+
+
+        }
         graphics.drawImage(target, randomPosition, gameContainer.getHeight() - 100);
-  */
+
     }
 
     static boolean hit() {

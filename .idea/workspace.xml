@@ -5,11 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Cannon/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cannon/Ball.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Cannon/CannonGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cannon/CannonGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Cannon/Landscape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cannon/Landscape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cannon/MyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cannon/MyGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cannon/Target.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cannon/Target.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cannon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cannon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CannonGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CannonGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Landscape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Landscape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Target.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Lib/slick/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,7 +62,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
     <configuration name="MyGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -91,12 +92,29 @@
       <workItem from="1583978919089" duration="765000" />
       <workItem from="1584144752792" duration="3982000" />
       <workItem from="1584230133724" duration="7474000" />
-      <workItem from="1584318074448" duration="5478000" />
+      <workItem from="1584318074448" duration="10953000" />
+      <workItem from="1584394955678" duration="4407000" />
+      <workItem from="1584750714749" duration="2600000" />
+      <workItem from="1584840888354" duration="1065000" />
+      <workItem from="1584842345005" duration="5150000" />
+      <workItem from="1584916543236" duration="1685000" />
     </task>
+    <task id="LOCAL-00001" summary="Creados objetos y implementación de cañon">
+      <created>1584323592246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584323592246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creados objetos y implementación de cañon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creados objetos y implementación de cañon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584129909913">
@@ -107,10 +125,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="492" y="229" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1584129805636" />
-    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1584152057606">
+    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1584323591612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584152057606" />
+    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584323591612" />
     <state x="395" y="56" key="DetectedRootsChooserDialog" timestamp="1584129835561">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -119,34 +137,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584145307963" />
-    <state width="595" height="163" key="GridCell.Tab.0.bottom" timestamp="1584323259732">
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1584917820176">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="595" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584323259732" />
-    <state width="595" height="163" key="GridCell.Tab.0.center" timestamp="1584323259731">
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584917820176" />
+    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1584917820175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="595" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584323259731" />
-    <state width="595" height="163" key="GridCell.Tab.0.left" timestamp="1584323259731">
+    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584917820175" />
+    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1584917820175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="595" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584323259731" />
-    <state width="595" height="163" key="GridCell.Tab.0.right" timestamp="1584323259732">
+    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584917820175" />
+    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1584917820175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="595" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584323259732" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1584145311172">
+    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584917820175" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1584841933563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584145311172" />
-    <state x="466" y="77" key="Vcs.Push.Dialog.v2" timestamp="1584323556031">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584841933563" />
+    <state x="466" y="77" key="Vcs.Push.Dialog.v2" timestamp="1584918301988">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="466" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584323556031" />
-    <state x="617" y="154" key="run.anything.popup" timestamp="1584322478329">
+    <state x="466" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584918301988" />
+    <state x="91" y="0" key="new project wizard" timestamp="1584841955786">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="617" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1584322478329" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584841955786" />
+    <state x="617" y="154" key="run.anything.popup" timestamp="1584844725935">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="617" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1584844725935" />
     <state x="623" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1584147038499">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
